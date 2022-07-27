@@ -10,6 +10,4 @@ target_include_directories(
 target_link_libraries(
     main PRIVATE
     mergePath
-    "cudart_static"
-    "cuda"
 )

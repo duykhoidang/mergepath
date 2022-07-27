@@ -12,6 +12,4 @@ set_property(TARGET mergePath PROPERTY CUDA_STANDARD 17)
 
 target_link_libraries(
     mergePath PRIVATE
-    "cudart_static"
-    "cuda"
 )
